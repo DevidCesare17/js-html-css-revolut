@@ -82,7 +82,7 @@ a.language::after{
 [class*="m_tendina"]{
   display: none;
   position: absolute;
-  top: 40px;
+  top: 20px;
   border-radius: 10px;
   padding: 15px;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.8);
@@ -103,7 +103,6 @@ right: 150px;
 
 } */
 .m_tendina_6{
-top: 20px;
 right: 110px;
 }
 
