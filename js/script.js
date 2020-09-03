@@ -9,10 +9,17 @@ $(document).ready(function () {
   );
 
   // visualizzo e nascondo menu a tendina all'hover dell'utente
-  $(this).mouseover(
+  $(".open_menu").mouseover(
     function () {
-      $(".m_tendina_1").toggle();
+      $(this).children("[class*='m_tendina']").slideToggle();
     }
   );
 
+  $(".open_menu").mouseleave(
+    function () {
+      $(this).children("[class*='m_tendina']").slideToggle();
+      valid = true;
+    }
+  );
+  
 });

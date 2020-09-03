@@ -22,10 +22,6 @@ body{
   display: flex;
 }
 
-.d_none{
-  display: none;
-}
-
 .menu_list>li{
   list-style: none;
   display: inline-block;
@@ -108,7 +104,7 @@ right: 150px;
 } */
 .m_tendina_6{
 top: 20px;
-right: 120px;
+right: 110px;
 }
 
 .tendina_list li{
