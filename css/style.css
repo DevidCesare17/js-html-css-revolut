@@ -9,6 +9,10 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+.active{
+  color: #000000;
+}
+
 .container{
   width: 80%;
   margin: auto;
@@ -80,6 +84,7 @@ a.language::after{
 
 /* menu a tendina */
 [class*="m_tendina"]{
+  display: none;
   position: absolute;
   top: 40px;
   border-radius: 10px;
