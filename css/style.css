@@ -74,7 +74,7 @@ a.language::after{
   vertical-align: baseline;
 }
 
-.menu_list{
+.open_menu{
   position: relative;
 }
 
@@ -83,28 +83,31 @@ a.language::after{
   display: none;
   position: absolute;
   top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
   border-radius: 10px;
+  width: max-content;
   padding: 15px;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.8);
 }
-.m_tendina_1{
-  left: -50px;
+/* .m_tendina_1{
+  width: 220px;
 }
 .m_tendina_2{
-left: 0;
+  width: 300px;
 }
 .m_tendina_3{
-left: 200px;
+  width: 150px;
 }
 .m_tendina_4{
-right: 150px;
+  width: 250px;
 }
-/* .m_tendina_5{
-
-} */
+.m_tendina_5{
+  width: 120px;
+}
 .m_tendina_6{
-right: 110px;
-}
+  width: 50px;
+} */
 
 .tendina_list li{
   text-align: left;
